@@ -16,3 +16,6 @@
 
 # Canvas-specific .results.json
 .results.json
+
+__pycache__
+.pytest_cache

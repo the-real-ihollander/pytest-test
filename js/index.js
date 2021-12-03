@@ -48,24 +48,3 @@ function fizzbuzz(num) {
     return num;
   }
 }
-
-/*
-  Write a method `calculator` that takes three arguments: an operation and two
-  numbers. If the operation is one of the following: `+`, `-`, `*`, or `\`,
-  return the value of calling the operation on the two numbers. Otherwise,
-  output a message saying "Invalid operation!" and return `nil`.
-*/
-function calculator(operation, num1, num2) {
-  switch (operation) {
-    case "+":
-      return num1 + num2;
-    case "-":
-      return num1 - num2;
-    case "*":
-      return num1 * num2;
-    case "/":
-      return num1 / num2;
-    default:
-      console.log("Invalid operation!");
-  }
-}
