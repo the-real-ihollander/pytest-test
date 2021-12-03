@@ -1,6 +1,5 @@
 def admin_login(username, password):
-    # your code here
-    pass
+    print("fail")
 
 
 def hows_the_weather(temperature):

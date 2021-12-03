@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="3" time="0.121" timestamp="2021-12-03T17:11:13.670021" hostname="Ians-MacBook-Pro.local"><testcase classname="control_flow_test" name="test_admin_login" time="0.001"><failure message="AssertionError: assert None == 'Access granted'&#10; +  where None = admin_login('admin', '12345')">def test_admin_login():
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="3" time="0.131" timestamp="2021-12-03T17:29:36.607931" hostname="Ians-MacBook-Pro.local"><testcase classname="control_flow_test" name="test_admin_login" time="0.001"><failure message="AssertionError: assert None == 'Access granted'&#10; +  where None = admin_login('admin', '12345')">def test_admin_login():
         # returns "Access granted" if the username is "admin" and the password is "12345"
 &gt;       assert admin_login("admin", "12345") == "Access granted"
 E       AssertionError: assert None == 'Access granted'
