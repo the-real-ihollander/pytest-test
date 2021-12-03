@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="3" time="0.121" timestamp="2021-12-03T17:11:13.670021" hostname="Ians-MacBook-Pro.local"><testcase classname="control_flow_test" name="test_admin_login" time="0.001"><failure message="AssertionError: assert None == 'Access granted'&#10; +  where None = admin_login('admin', '12345')">def test_admin_login():
+        # returns "Access granted" if the username is "admin" and the password is "12345"
+&gt;       assert admin_login("admin", "12345") == "Access granted"
+E       AssertionError: assert None == 'Access granted'
+E        +  where None = admin_login('admin', '12345')
+
+control_flow_test.py:6: AssertionError</failure></testcase><testcase classname="control_flow_test" name="test_hows_the_weather" time="0.001"><failure message="assert None == &quot;It's brisk out there!&quot;&#10; +  where None = hows_the_weather(33)">def test_hows_the_weather():
+        # returns "It\'s brisk out there!" if the temperature is below 40
+&gt;       assert hows_the_weather(33) == "It's brisk out there!"
+E       assert None == "It's brisk out there!"
+E        +  where None = hows_the_weather(33)
+
+control_flow_test.py:19: AssertionError</failure></testcase><testcase classname="control_flow_test" name="test_fizzbuzz" time="0.001"><failure message="AssertionError: assert None == 'FizzBuzz'&#10; +  where None = fizzbuzz(15)">def test_fizzbuzz():
+    
+        # returns "FizzBuzz" when the input is a multiple of 3 and 5
+&gt;       assert fizzbuzz(15) == "FizzBuzz"
+E       AssertionError: assert None == 'FizzBuzz'
+E        +  where None = fizzbuzz(15)
+
+control_flow_test.py:34: AssertionError</failure></testcase></testsuite></testsuites>
